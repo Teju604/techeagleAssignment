@@ -1,0 +1,169 @@
+.track-outer {
+  position: relative;
+  height: 500px;
+  padding: 10px;
+}
+
+.track { border: 10px solid #B27569; transition: all ease-in-out 200ms; position: absolute;}
+.track:hover {border: 10px solid #825046; cursor:pointer}
+.track:hover::before{ background:#825046;}
+
+.track::before {content: ""; background:#B27569; height: 10px; position:absolute; bottom:-11px; width:100px; border-top:1px solid #fff; border-bottom:1px solid #fff; transition: all ease-in-out 200ms;}
+
+.eclipsetime{
+  margin-left: 235px;
+  margin-top: 160px;
+  width:180px;
+  border-radius:70px;
+  color: rgb(112, 158, 98);
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(13, 46, 3);
+}
+.elapse{
+  margin-left: 235px;
+  margin-top: 250px;
+  width:180px;
+  border-radius:70px;
+  text-align: center;
+  padding: 20px;
+
+}
+.track1 {
+  height: 420px;
+  width: 670px;
+  border-radius:200px;
+  left:0;
+  top:0;
+}
+.track1::before {left: 0;}
+.track2 {
+  height: 398px;
+  width: 648px;
+  border-radius:190px;
+  
+  left:11px;
+  top:11px;
+}
+.track2::before {left: -11;}
+.track3{
+  height: 376px;
+  width: 626px;
+  border-radius:180px;
+ 
+  left:22px;
+  top:22px;
+}
+.track3::before {left: -22;}
+.track4 {
+  height: 354px;
+  width: 604px;
+  border-radius:170px;
+  left:33px;
+  top:33px;
+  
+}
+.track4::before {left: -33;}
+.track5{
+  height: 332px;
+  width: 582px;
+  border-radius:160px;
+  left:44px;
+  top:44px;
+ 
+}
+.track5::before {left: -44;}
+
+.track6 {
+  height: 310px;
+  width: 560px;
+  border-radius:150px;
+  left:55px;
+  top:55px;
+}
+.track6::before {left: -55;}
+
+.track7 {
+  height: 288px;
+  width: 538px;
+  border-radius:140px;
+  
+  left:66px;
+  top:66px;
+}
+.track7::before {left: -66px;}
+
+.track8 {
+  height: 266px;
+  width: 516px;
+  border-radius:130px;
+  left:77px;
+  top:77px;
+}
+.track8::before {left: -77px;}
+
+.track9{
+  height: 244px;
+  width: 494px;
+  border-radius:120px;
+  left:88px;
+  top:88px;
+}
+.track9::before {left: -88px;}
+
+.track10{
+  height: 222px;
+  width: 472px;
+  border-radius:110px;
+  left:99px;
+  top:99px;
+}
+.track10::before {left: -99;}
+
+
+
+
+
+.track {
+  border: 10px solid #B27569;
+  transition: all ease-in-out 200ms;
+  position: absolute;
+  
+}
+
+.track:hover {
+  border: 10px solid #825047;
+  cursor: pointer;
+}
+
+.track:hover::before {
+  background: #825046;
+}
+
+.track::before {
+  content: "";
+  background: #B27569;
+  height: 10px;
+  position: absolute;
+  bottom: -11px;
+  width: 100px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transition: all ease-in-out 200ms;
+}
+
+
+.participant {
+  width: 10px;
+  height: 10px;
+  background-color: green; /* Adjust the color of the participant */
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: transform 0s ease-in-out; /* Animation duration and easing */
+}
+
+
+
+
+

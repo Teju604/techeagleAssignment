@@ -1,0 +1,49 @@
+th{
+    width:30vw;
+    padding: 20px;
+    font-weight: 300;
+}
+.width1{
+    width: 30vw;
+    background-color: #C9C0BB;
+
+}
+.width2{
+    width: 70vw;
+}
+.margins{
+    margin-left: 70px;
+}
+.containercolor{
+    background-color: #D1D0CE;
+    height: 100vh;
+    width: 100vw;
+}
+.parallelogram-btn {
+    width: 150px; /* Set the desired width */
+    height: 40px; /* Set the desired height */
+    background-color:orangered; /* Set the background color */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove default button border */
+    outline: none; /* Remove default button outline */
+    transform: skewX(-20deg); /* Skew the button by -20 degrees */
+}
+td{
+    padding-left: 25px;
+     
+ }
+
+ .innercircle{
+    width: 97.33px;
+    height: 97.33px;
+    color: #DEBF43;
+    opacity: 74%;
+    shadow: #D7E0F1, 100%;
+    border-radius: 20px;
+    border-color: #DEBF43;
+    blur: 30px;
+  }
+  .colors{
+    background-color: #DEBF43;
+    color: yellowgreen;
+  }

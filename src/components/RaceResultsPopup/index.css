@@ -1,0 +1,16 @@
+.bordernone{
+    border: none;
+}
+.parallelogram-btn {
+    width: 150px; /* Set the desired width */
+    height: 40px; /* Set the desired height */
+    background-color:orangered; /* Set the background color */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove default button border */
+    outline: none; /* Remove default button outline */
+    transform: skewX(-20deg); /* Skew the button by -20 degrees */
+  }
+td{
+   padding-left: 25px;
+    
+}
